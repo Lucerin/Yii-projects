@@ -1,0 +1,150 @@
+/* 
+    Document   : loginForm
+    Created on : 02.02.2012, 11:05:45
+    Author     : georgeee
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.authMethodSwitcher{
+    list-style: none;
+    clear:both;
+    overflow:auto;
+}
+.authMethodSwitcherDiv{
+    overflow:auto;
+    clear:both;
+}
+.authForm .authMethod{
+    margin: 0 3px 0 0;
+    width: 60px;
+    float:left;
+}
+#accountList .authMethodIcon{
+    margin-right: 20px;
+}
+#accountList .authMethod{
+    height: 48px;
+    margin-bottom: 10px;
+    width: 99%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#accountList .authMethodDesc{
+    font-size: 16px;
+    line-height: 48px;
+}
+.authMethodActions{
+    margin-top: 5px;
+}
+.authMethodIcon{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 0 auto;
+    float:left;
+}
+
+.authMethodIconMini{
+    padding-left: 20px;
+    margin: 0 auto 0 auto;
+}
+.authMethodTitle{
+    text-align: center;
+}
+.authMethod.vkontakte .authMethodIcon{
+    background: url("images/logo/48/vkontakte.png") no-repeat;
+}
+.authMethod.google_oauth .authMethodIcon{
+    background: url("images/logo/48/google.png") no-repeat;
+}
+.authMethod.facebook .authMethodIcon{
+    background: url("images/logo/48/facebook.png") no-repeat;
+}
+.authMethod.google .authMethodIcon{
+    background: url("images/logo/48/google.png") no-repeat;
+}
+.authMethod.mailru .authMethodIcon{
+    background: url("images/logo/48/mailru.png") no-repeat;
+}
+.authMethod.moikrug .authMethodIcon{
+    background: url("images/logo/48/moikrug.png") no-repeat;
+}
+.authMethod.odnoklassniki .authMethodIcon{
+    background: url("images/logo/48/odnoklassniki.png") no-repeat;
+}
+.authMethod.twitter .authMethodIcon{
+    background: url("images/logo/48/twitter.png") no-repeat;
+}
+.authMethod.yandex .authMethodIcon{
+    background: url("images/logo/48/yandex.png") no-repeat;
+}
+.authMethod.email .authMethodIcon{
+    background: url("images/logo/48/email.png") no-repeat;
+}
+
+.authMethodIconMini.vkontakte{
+    background: url("images/logo/16/vkontakte.png") no-repeat;
+}
+.authMethodIconMini.google_oauth{
+    background: url("images/logo/16/google.png") no-repeat;
+}
+.authMethodIconMini.facebook{
+    background: url("images/logo/16/facebook.png") no-repeat;
+}
+.authMethodIconMini.google{
+    background: url("images/logo/16/google.png") no-repeat;
+}
+.authMethodIconMini.mailru{
+    background: url("images/logo/16/mailru.png") no-repeat;
+}
+.authMethodIconMini.moikrug{
+    background: url("images/logo/16/moikrug.png") no-repeat;
+}
+.authMethodIconMini.odnoklassniki{
+    background: url("images/logo/16/odnoklassniki.png") no-repeat;
+}
+.authMethodIconMini.twitter{
+    background: url("images/logo/16/twitter.png") no-repeat;
+}
+.authMethodIconMini.yandex{
+    background: url("images/logo/16/yandex.png") no-repeat;
+}
+.authMethodIconMini.email{
+    background: url("images/logo/16/email.png") no-repeat;
+}
+
+
+.eauthHandlers,.authMethodSwitcherDiv{
+    display : none;
+}
+
+.authMethodIcon i{
+    width: 48px;
+    height:48px;
+    display:none;
+}
+
+.authMethodLink:hover .authMethodIcon i,
+.authMethodLink:focus .authMethodIcon i,
+.authMethod.hovered .authMethodIcon i{
+    display: block;
+    background-image: url("images/blank.png");
+}
+
+.authMethod.selected .authMethodIcon i{
+    display: block;
+    background-image: url("images/gray.png");
+}
+.authMethod.selected .authMethodLink{
+    color: gray;
+    cursor:default;
+}
+.formDiv{
+    margin-top:10px;
+}
+.emailFieldsDiv fieldset{
+    padding-left:20px;
+}
+div.form label.authMethodRememberMeLabel{
+    display: inline;
+}
